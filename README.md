@@ -36,7 +36,7 @@ These tables correspond to the expression data summarized in Figure 3 of the acc
 
 ## Code
 
-`scripts/VTA_DA_nAChR_analysis.R` is the full Seurat pipeline used to generate these tables, recovered from the original R session history and verified to reproduce the same expression values found in the CSVs above. It covers: downloading and unpacking GSE235149 from GEO, building per-sample Seurat objects, merging and normalizing, filtering to dopaminergic neurons (Th/Slc6a3/Ddc/Slc18a2+), scoring the LGIC gene panel (including the Chrna/Chrnb nAChR subunits), and ranking subunits by expression.
+`VTA_DA_nAChR_analysis.R` is the full Seurat pipeline used to generate these tables, recovered from the original R session history and verified to reproduce the same expression values found in the CSVs above. It covers: downloading and unpacking GSE235149 from GEO, building per-sample Seurat objects, merging and normalizing, filtering to dopaminergic neurons (Th/Slc6a3/Ddc/Slc18a2+), scoring the LGIC gene panel (including the Chrna/Chrnb nAChR subunits), and ranking subunits by expression.
 
 ## Key finding
 
